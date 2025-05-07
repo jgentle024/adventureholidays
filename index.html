@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome To Adventure Holidays</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* General styling for the gallery container */
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    /* Styling for each image in the gallery */
+    .gallery img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    /* Hover effect to scale the image */
+    .gallery img:hover {
+        transform: scale(1.1);
+    }
+    body {
+      background-color: #8ed3e6;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Adventure Holidays</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="Climbing.html">Climbing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Walking.html">Walking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Kayaking.html">Kayaking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Fishing.html">Fishing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Booking.html">Booking</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+
+   <!-- start to add your content below here -->
+
+    <h1>Welcome To Your Next Adventure Holiday</h1>
+    <p>The Alps Await</p>
+    <p class ="text">Adventure Holidays are a UK based company who specialise in sports and leisure holidays in
+      the French and Swiss Alps. These adventure holidays include road cycling, mountain biking,
+      lake fishing, walking, sailing, base jumping, white water rafting, rock climbing and
+      paragliding. We aim to provide the best Alpine experience for you. From White knuckle exhilaration from rock climbing and white water rafting to serene and calming fishing and hikes through the forest.  We will have a holiday to suit you. Feel free to explore our website and pick the right adventure for you.
+    </p>
+    
+
+<!-- Image gallery -->
+    <div class="gallery">
+      <img src="images/alpineroad.jpg" alt="Image 1">
+      <img src="images/landscape4.jpg" alt="Image 2">
+      <img src="images/lake.jpg" alt="Image 3">
+      
+  </div>
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/h8cmhaRwQt0?si=t4Oc9sAmth0fuYoM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    
+   
+    <!-- do not add anymore content after here -->
+  
+  
+  </div>
+
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<footer>
+  &copy; Adventure Holidays 2022
+</footer>
+
+</body>
+</html>
